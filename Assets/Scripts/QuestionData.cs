@@ -5,6 +5,8 @@ using System.Collections;
 public class QuestionData
 {
     public string questionText;
-    public AnswerData[] answers; 
+    public AnswerData[] answers;
+    public AudioClip clip = null;
+    public Sprite image = null;
 
 }
